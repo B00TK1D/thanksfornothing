@@ -81,7 +81,7 @@
      border-bottom-color: #3898ec;
      border-left-color: #3898ec;
      border-right-color: #3898ec;
-     background-image: url(https://d3e54v103j8qbb.cloudfront.net/static/custom-checkbox-checkmark.589d534424.svg);
+     background-image: url(img/checkbox.svg);
      background-position: 50% 50%;
      background-size: cover;
      background-repeat: no-repeat;
@@ -109,7 +109,7 @@
      -webkit-align-items: center;
      -ms-flex-align: center;
      align-items: center;
-     background-image: url("https://uploads-ssl.webflow.com/62faa877544679019e89522a/632ce064904a42751a50fa22_2_bc3d32a696895f78c19df6c717586a5d.svg");
+     background-image: url("img/background.svg");
      background-position: 50% 50%;
      background-size: cover;
      background-repeat: no-repeat;
@@ -126,7 +126,7 @@
      width: 140px;
      height: 50px;
      margin-bottom: 10px;
-     background-image: url("https://uploads-ssl.webflow.com/62faa877544679019e89522a/632cde6853356834a9d9e074_microsoft_logo_ee5c8d9fb6248c938fd0dc19370e90bd.svg");
+     background-image: url("img/microsoft.svg");
      background-position: 50% 50%;
      background-size: contain;
      background-repeat: no-repeat;
@@ -210,7 +210,7 @@
    .div-block-3 {
      width: 30px;
      margin-right: 10px;
-     background-image: url("https://uploads-ssl.webflow.com/62faa877544679019e89522a/632ce7081e60a43eec40f250_picker_verify_sms_27a6d18b56f46818420e60a773c36d4e.svg");
+     background-image: url("img/verify.svg");
      background-position: 0px 0px;
      background-size: contain;
      background-repeat: no-repeat;
